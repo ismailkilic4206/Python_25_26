@@ -1,6 +1,7 @@
 #C04_FonksiyonFor.py
 
 def toplama(*params):
+    print(type(params))
     toplam = 0
 
     for i in params:
